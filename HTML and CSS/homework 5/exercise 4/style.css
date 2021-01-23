@@ -1,0 +1,26 @@
+body{
+    background: rgb(238, 238, 238);
+}
+
+.card{
+    background-color: rgb(238, 238, 238);
+}
+
+button{
+    background-color: rgb(0, 153, 0);
+}
+
+img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+h1{
+    font-family: Georgia, serif;
+    font-size: 1em;
+}

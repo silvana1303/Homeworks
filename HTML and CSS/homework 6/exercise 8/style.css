@@ -1,0 +1,14 @@
+body{
+    display: flex;
+}
+
+body{
+    height: 100vh;
+    background: rgb(238, 238, 238);
+}
+
+footer{
+    position: sticky;
+    color: rgb(255, 255, 255);
+    background: rgb(102, 102, 102);
+}

@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+
+html{
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+input::placeholder, textarea::placeholder{
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FAFAFA;
+}
+
+ul{
+    list-style: none;
+}
+
+textarea{
+    display: block;
+}
+
+form{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+} 
+
+
+ul input, input:last-of-type{
+    padding: 15px 10px;
+}
+
+.banner{
+    display: flex;
+}
+
+.left{
+    padding: 50px 40px;
+    box-shadow: -9px 0px 22px 5px rgba(0,0,0,0.6);
+}
+
+.left p{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.left ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left input:last-of-type{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+textarea{
+    margin-bottom: 15px;
+}
+
+textarea::placeholder{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+button{
+    color: white;
+    background-color: #1089FF;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.right{
+    padding: 50px 40px;
+    background-color: #1089FF;
+}
+
+.right p{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.right ul {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.right ul li:last-child{
+    font-size: 14px;
+    color: #79D6FF;
+}
+
+.right span{
+    color: white;
+}
+
+
+.right i{
+    color: white;
+    background-color: #2895FF;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.wrapper-top, .wrapper-bottom{
+    position: relative;
+}
+
+.block-top{
+    position: absolute;
+    padding: 20px;
+    width: 309px;
+    top: 80px;
+    right: 384px;
+    background-color: #1089FF;
+    z-index: 1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.block-bottom{
+    position: absolute;
+    padding: 20px;
+    width: 309px;
+    top: 635px;
+    right: 384px;
+    background-color: #1089FF;
+    z-index: 1;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
